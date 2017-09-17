@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    font-family: Comic Sans MS;
+}
+
 header {
     min-height: 70px;
     padding: 10px 180px;
@@ -22,7 +26,7 @@ header img {
 }
 
 nav {
-    width: 250px;
+    width: 300px;
     float: right;
     margin-top: 20px;
 }
@@ -63,7 +67,7 @@ cite {
 #content div {
     width: 25%;
     display: inline-block;
-    margin:20px 38px;
+    margin: 20px 38px;
 }
 
 #content strong {
@@ -74,7 +78,8 @@ cite {
 #content p {
     margin-top: 10px;
 }
-#content div img{
+
+#content div img {
     width: 100%;
     height: 70px;
 }
