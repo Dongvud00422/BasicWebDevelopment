@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    min-height: 70px;
+    padding: 10px 180px;
+    border-bottom: 1px solid #000;
+    background: #E8F1FE;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+header img {
+    width: 70px;
+    float: left;
+}
+
+#brand {
+    width: 400px;
+    float: left;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+nav {
+    width: 250px;
+    float: right;
+    margin-top: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 10px;
+    border-right: 1px solid #000;
+}
+
+nav ul li:last-child {
+    border: none;
+}
+
+#qoute {
+    background: #64A7DC;
+    line-height: 40px;
+    min-height: 80px;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    padding-top: 110px;
+}
+
+blockquote {
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+}
+
+cite {
+    margin-left: 500px;
+}
+
+#content {
+    padding: 60px 200px;
+}
+
+#content div {
+    width: 25%;
+    display: inline-block;
+    margin:20px 38px;
+}
+
+#content strong {
+    color: #64A7DC;
+    text-decoration: underline;
+}
+
+#content p {
+    margin-top: 10px;
+}
+
+#scroll-top {
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 10px;
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    background: #E8F1FE;
+    padding: 4px 8px;
+}
+
+#scroll-top span {
+    padding: 2px 6px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #000;
+    background: #64A7DC;
+}
